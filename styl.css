@@ -4,13 +4,18 @@ body {
 h4 {
   visibility: hidden;
 }
+
+.col {
+  height: 100px;
+}
+
 .container {
   background-color: #7e4b8b;
   color: #f8ccf9;
   align-content: center;
 }
 .plate-container {
-  padding-bottom: 5%;
+  padding-top: 2%;
   text-align: center;
 }
 .player-palat {
@@ -25,11 +30,10 @@ h4 {
   text-align: center;
   font-size: 40px;
   display: inline-grid;
-  height: 5%;
   width: 10%;
   background-color: #fbf1f9;
   margin: 3% 7%;
-  padding: 4% 10%;
+  padding: 3% 10%;
 
   transition: background-color 1s;
   transition-timing-function: ease;
@@ -40,4 +44,12 @@ h4 {
 }
 .button-css {
   padding-left: 45% !important ;
+}
+@media (max-width: 600px) {
+  div.button-css {
+    padding-left: 40%;
+  }
+  .col {
+    height: 86px;
+  }
 }
