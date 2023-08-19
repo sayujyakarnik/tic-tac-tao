@@ -1,0 +1,43 @@
+body {
+  background-color: #7e4b8b;
+}
+h4 {
+  visibility: hidden;
+}
+.container {
+  background-color: #7e4b8b;
+  color: #f8ccf9;
+  align-content: center;
+}
+.plate-container {
+  padding-bottom: 5%;
+  text-align: center;
+}
+.player-palat {
+  width: 50%;
+  margin-left: 25%;
+  background-color: black;
+  opacity: 0.3;
+  text-align: center;
+  border-radius: 10%;
+}
+.plate {
+  text-align: center;
+  font-size: 40px;
+  display: inline-grid;
+  height: 5%;
+  width: 10%;
+  background-color: #fbf1f9;
+  margin: 3% 7%;
+  padding: 4% 10%;
+
+  transition: background-color 1s;
+  transition-timing-function: ease;
+}
+.plate:hover {
+  transition-duration: 3s;
+  background-color: #ae9da9;
+}
+.button-css {
+  padding-left: 45% !important ;
+}
